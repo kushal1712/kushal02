@@ -1,0 +1,11 @@
+
+
+a=input().strip()
+m=-999
+for i in range(len(a)):
+if a[i]=="1":
+m=i
+if m==-999:
+print(-1)
+else:
+print(m)
